@@ -1,0 +1,22 @@
+.square{
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.square--value{
+  background-color: transparent;
+  position: relative;
+}
+
+.square-wall{
+  position: absolute;
+  z-index: 1;
+}
